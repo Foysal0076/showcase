@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        OpenSans: ['var(--font-open-sans)'],
+        PlusJakartaSans: ['var(--font-plus-jakarta-sans)'],
       },
       boxShadow: {
         xs: 'var(--shadow-xs-box-shadow)',

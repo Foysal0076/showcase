@@ -1,17 +1,15 @@
 import '@/styles/globals.css'
 import '@/styles/globals.scss'
 
-import { Open_Sans } from 'next/font/google'
+import { Plus_Jakarta_Sans } from 'next/font/google'
 
 import { Footer } from '@/components/Footer'
 import { Navbar } from '@/components/Navbar'
 
 // eslint-disable-next-line no-unused-vars
-const openSans = Open_Sans({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  variable: '--font-open-sans',
-  display: 'swap',
-  fallback: ['Poppins', 'sans-serif'],
+  variable: '--font-plus-jakarta-sans',
 })
 
 export const metadata = {
@@ -33,7 +31,7 @@ export default function RootLayout({
         sizes='32x32'
         href='/assets/favicons/favicon.ico'
       />
-      <body suppressHydrationWarning>
+      <body className={`${plusJakartaSans.variable}`} suppressHydrationWarning>
         <div className='flex min-h-screen flex-col justify-between bg-neutral-0 dark:bg-neutral-900'>
           <div>
             <Navbar />
