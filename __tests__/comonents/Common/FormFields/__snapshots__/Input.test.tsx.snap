@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="custom-input group flex flex-col gap-1"
+  >
+    <label
+      class="font-semibold text-danger-500 group-focus-within:text-danger-500"
+    >
+      Test Label
+    </label>
+    <div
+      class="relative flex flex-col"
+    >
+      <input
+        class="rounded-sm border-none px-4 text-neutral-600 outline-none ring-1 placeholder:text-neutral-100 focus:placeholder:text-primary-100 disabled:bg-neutral-30 disabled:text-neutral-100 dark:bg-neutral-800 dark:text-neutral-50 dark:disabled:bg-neutral-400  ring-danger-500 focus:ring-danger-500"
+      />
+      <span
+        class="helper-text text-xs font-normal text-neutral-400 md:text-sm"
+      >
+        Test Helper Text
+      </span>
+      <div
+        class="absolute -bottom-0 left-0  translate-y-[80%]"
+      >
+        <span
+          class="-mt-1 text-xs text-danger-500 dark:text-danger-500"
+        >
+          Test Error
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

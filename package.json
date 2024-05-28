@@ -14,6 +14,7 @@
     "prepare": "husky install && bash -c 'chmod ug+x .husky/*'",
     "test:watch": "jest --watch",
     "test": "jest --ci",
+    "update-snapshot": "jest -u",
     "test:coverage": "jest --coverage --watchAll collectCoverageFrom='[\"src/components/Common/**/*.{tsx}\"]' --collectCoverage",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss}\""
   },
